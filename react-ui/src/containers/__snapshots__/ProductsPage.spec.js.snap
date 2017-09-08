@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="Polaris-Page"
+>
+  <div
+    className="Polaris-Page__Header Polaris-Page__Header--hasSecondaryActions"
+  >
+    <div
+      className="Polaris-Page__MainContent"
+    >
+      <div
+        className="Polaris-Page__TitleAndActions"
+      >
+        <div
+          className="Polaris-Page__Title"
+        >
+          <h1
+            className="Polaris-DisplayText Polaris-DisplayText--sizeLarge"
+          >
+            Products
+          </h1>
+        </div>
+        <div
+          className="Polaris-Page__Actions"
+        >
+          <div
+            className="Polaris-Page__PrimaryAction"
+          >
+            <button
+              aria-busy={undefined}
+              aria-label={undefined}
+              className="Polaris-Button Polaris-Button--primary"
+              disabled={undefined}
+              onBlur={undefined}
+              onClick={[Function]}
+              onFocus={undefined}
+              onMouseUp={[Function]}
+              role={undefined}
+              type="button"
+            >
+              <span
+                className="Polaris-Button__Content"
+              >
+                <span>
+                  Add product
+                </span>
+              </span>
+            </button>
+          </div>
+          <div
+            className="Polaris-Page__SecondaryActions"
+          >
+            <div
+              className="Polaris-Page__IndividualActions"
+            >
+              <button
+                aria-label={undefined}
+                className="Polaris-Page__Action"
+                onClick={[Function]}
+                onMouseUp={[Function]}
+                type="button"
+              >
+                Go to About
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Polaris-Page__PrimaryAction"
+      >
+        <button
+          aria-busy={undefined}
+          aria-label={undefined}
+          className="Polaris-Button Polaris-Button--primary"
+          disabled={undefined}
+          onBlur={undefined}
+          onClick={[Function]}
+          onFocus={undefined}
+          onMouseUp={[Function]}
+          role={undefined}
+          type="button"
+        >
+          <span
+            className="Polaris-Button__Content"
+          >
+            <span>
+              Add product
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Polaris-Page__Content"
+  >
+    <div
+      className="Polaris-Card"
+    >
+      <ul
+        className="Polaris-ResourceList"
+      />
+    </div>
+  </div>
+</div>
+`;

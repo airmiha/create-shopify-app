@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="Polaris-Page"
+>
+  <div
+    className="Polaris-Page__Header Polaris-Page__Header--hasSecondaryActions"
+  >
+    <div
+      className="Polaris-Page__Title"
+    >
+      <h1
+        className="Polaris-DisplayText Polaris-DisplayText--sizeLarge"
+      >
+        About
+      </h1>
+    </div>
+    <div
+      className="Polaris-Page__Actions"
+    >
+      <div
+        className="Polaris-Page__SecondaryActions"
+      >
+        <div
+          className="Polaris-Page__IndividualActions"
+        >
+          <button
+            aria-label={undefined}
+            className="Polaris-Page__Action"
+            onClick={[Function]}
+            onMouseUp={[Function]}
+            type="button"
+          >
+            Back to products
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Polaris-Page__Content"
+  >
+    <div
+      aria-describedby={undefined}
+      aria-labelledby="Banner2Heading"
+      aria-live="polite"
+      className="Polaris-Banner Polaris-Banner--statusSuccess"
+      onMouseUp={[Function]}
+      role="status"
+      tabIndex={0}
+    >
+      <div
+        className="Polaris-Banner__Ribbon"
+      >
+        <span
+          aria-label={undefined}
+          className="Polaris-Icon Polaris-Icon--colorGreenDark Polaris-Icon--hasBackdrop"
+        >
+          <svg
+            className="Polaris-Icon__Svg"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<g  fill-rule=\\"evenodd\\"><circle fill=\\"currentColor\\" cx=\\"10\\" cy=\\"10\\" r=\\"9\\"/><path d=\\"M10 0C4.486 0 0 4.486 0 10s4.486 10 10 10 10-4.486 10-10S15.514 0 10 0m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m2.293-10.707L9 10.586 7.707 9.293a1 1 0 1 0-1.414 1.414l2 2a.997.997 0 0 0 1.414 0l4-4a1 1 0 1 0-1.414-1.414\\" /></g>",
+              }
+            }
+            viewBox="0 0 20 20"
+          />
+        </span>
+      </div>
+      <div>
+        <div
+          className="Polaris-Banner__Heading"
+          id="Banner2Heading"
+        >
+          <p
+            className="Polaris-Heading"
+          >
+            Your React Shopify app is ready. You can start building solutions for merchants!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

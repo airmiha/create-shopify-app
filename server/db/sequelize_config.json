@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "shopify-app-development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "shopify-app-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "shopify-app-production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

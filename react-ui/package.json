@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@shopify/polaris": "^1.1.1",
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "url-search-params": "^0.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "proxy": {
+    "/": {
+      "target": "http://localhost:3001"
+    }
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "flow-bin": "^0.53.1",
+    "react-test-renderer": "^15.6.1"
+  }
+}

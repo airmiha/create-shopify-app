@@ -1,0 +1,36 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "arrow-parens": 0,
+    "comma-dangle": 0,
+    "flowtype-errors/show-errors": 2,
+    "flowtype-errors/enforce-min-coverage": [2, 50],
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "jsx-a11y/img-has-alt": 0,
+    "no-console": 0,
+    "no-shadow": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-wrap-multilines": 0,
+    "react/prop-types": 0
+  },
+  "plugins": ["react", "jsx-a11y", "flowtype", "flowtype-errors", "jest"],
+  "globals": {
+    "__DEVSERVER__": true,
+    "__DEVCLIENT__": true,
+    "jest": true
+  }
+}

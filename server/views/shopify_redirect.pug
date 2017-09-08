@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    base(target='_top')
+    title Redirecting…
+    script(type='text/javascript').
+      // If the current window is the 'parent', change the URL by setting location.href
+      if (window.top == window.self) {
+        window.top.location.href = "#{url}";
+        // If the current window is the 'child', change the parent's URL with postMessage
+      } else {
+        message = JSON.stringify({
+          message: 'Shopify.API.remoteRedirect',
+          data: { location: '#{url}' }
+        });
+        window.parent.postMessage(message, 'https://#{shop}');
+      }
+  body
