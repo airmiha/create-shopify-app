@@ -206,7 +206,7 @@ export default () => {
 
     Shop.destroy({
       where: {
-        domain: req.body.shop
+        domain: req.headers['x-shopify-shop-domain']
       }
     }).then(() => {
       res.status(200).send('Uninstalled');
@@ -302,11 +302,14 @@ export default () => {
     logger.info(`Checking if the session is still valid: ${req.query.shop}`);
     const { session, shopify } = req;
 
-    return shopify.shop.get().then(() => next()).catch(() => {
-      // Destroy the Shopify reference
-      delete session.shopify;
-      authenticate(req, res);
-    });
+    return shopify.shop
+      .get()
+      .then(() => next())
+      .catch(() => {
+        // Destroy the Shopify reference
+        delete session.shopify;
+        authenticate(req, res);
+      });
   };
 
   router.get(
